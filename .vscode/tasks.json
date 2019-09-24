@@ -1,0 +1,8 @@
+{
+    "version": "0.1.0",
+    "command": "start microsoft-edge:",    
+    "windows": {
+        "command": "start microsoft-edge:"
+    },
+    "args": ["index.html"]
+}
