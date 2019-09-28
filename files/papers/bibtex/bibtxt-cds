@@ -1,0 +1,11 @@
+@article{MRA,
+	author = {Ronald Stanley},
+	title = { Features Advances to Automatically Find Images for Application to Clinical Decision Support},
+	journal = {Medical Research Archives},
+	volume = {4},
+	number = {7},
+	year = {2016},
+	keywords = {},
+	abstract = {Filtering through ever increasing sources of information to find relevant information for clinical decisions is a challenging task for clinicians.  In biomedical publications, there are a variety of items that can provide evidence to aid the decision making process.  One example is illustration image analysis and classification, which has been used to characterize and distinguish specific image modalities; this capability in turn has been used to assist in the evidence gathering process.   This paper examines clinical decision support applications and extends previous research for illustration modality discrimination analysis. Specifically, we compared global, HSV histogram-based, and Gabor filter-based features to histogram-based features for modality classification on a set of 12,056 images from 2004-2006 biomedical publication issues of Radiology and RadioGraphics that were manually annotated by modality (radiological, photo, etc.). Using a nearest neighbor classifier, we obtained average modality discrimination results as high as 99.98% using correlated features computed from Gabor filter spectral coefficients.  These experimental results indicate that image features, particularly correlation-based features, can provide modality discrimination useful for clinical decision support applications},
+	issn = {2375-1924},	url = {https://journals.ke-i.org/index.php/mra/article/view/761}
+}

@@ -1,0 +1,11 @@
+@conference{visapp17,
+author={Sudhir Sornapudi. and R. Joe Stanley. and Jason Hagerty. and William V. Stoecker.},
+title={Real-world Pill Segmentation based on Superpixel Merge using Region Adjacency Graph},
+booktitle={Proceedings of the 12th International Joint Conference on Computer Vision, Imaging and Computer Graphics Theory and Applications - Volume 4: VISAPP, (VISIGRAPP 2017)},
+year={2017},
+pages={182-187},
+publisher={SciTePress},
+organization={INSTICC},
+doi={10.5220/0006135801820187},
+isbn={978-989-758-225-7},
+}
