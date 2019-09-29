@@ -20,8 +20,8 @@ if($_POST) {
 		$error['email'] = "Please enter a valid email address.";
 	}
 	// Check Message
-	if (strlen($contact_message) < 15) {
-		$error['message'] = "Please enter your message. It should have at least 15 characters.";
+	if (strlen($contact_message) < 3) {
+		$error['message'] = "Please enter your message. It should have at least 4 characters.";
 	}
    // Subject
 	if ($subject == '') { $subject = "Contact Form Submission"; }
@@ -29,7 +29,7 @@ if($_POST) {
 
    // Set Message
    $message .= "Email from: " . $name . "<br />";
-	$message .= "Email address: " . $email . "<br />";
+   $message .= "Email address: " . $email . "<br />";
    $message .= "Message: <br />";
    $message .= $contact_message;
    $message .= "<br /> ----- <br /> This email was sent from your site's contact form. <br />";
