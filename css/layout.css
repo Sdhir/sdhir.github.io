@@ -692,6 +692,10 @@ footer .copyright li:before {
     padding-right: 10px;
     color: #095153;
 }
+
+footer p span a{
+   color: rgb(36, 35, 35);
+}
 footer .copyright  li:first-child:before {
     display: none;
 }
