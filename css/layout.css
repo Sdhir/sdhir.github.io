@@ -522,7 +522,8 @@ ul#nav li.current a { color: #F06000; }
 #contact {
    background: #191919;
    padding-top: 96px;
-   padding-bottom: 102px;
+   padding-bottom: 80px;
+   padding-left: 200px;
    color:  rgb(187, 189, 190);
 }
 #contact .section-head { margin-bottom: 42px; }
@@ -693,9 +694,14 @@ footer .copyright li:before {
     color: #095153;
 }
 
-footer p span a{
+footer p span{
    color: rgb(36, 35, 35);
 }
+
+footer p a{
+   color: rgb(36, 35, 35);
+}
+
 footer .copyright  li:first-child:before {
     display: none;
 }
