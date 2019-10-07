@@ -257,6 +257,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 3px solid #F06000;
    padding-bottom: 0px;
    margin: auto;
+   text-align: center;
 }
 #publications h3 {
    color: #fff;
@@ -311,6 +312,7 @@ ul#nav li.current a { color: #F06000; }
    border-bottom: 3px solid #F06000;
    padding-bottom: 0px;
    margin: auto;
+   text-align: center;
 }
 #education h3 {
    color: #fff;
