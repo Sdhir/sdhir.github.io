@@ -264,7 +264,10 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#publications .header-col { padding-top: 9px; }
+#publications .header-col { 
+   padding-top: 2px; 
+   text-align: center
+}
 #publications .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -319,7 +322,10 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#education .header-col { padding-top: 9px; }
+#education .header-col { 
+   padding-top: 2px; 
+   text-align: center
+ }
 #education .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -373,7 +379,10 @@ ul#nav li.current a { color: #F06000; }
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#experience .header-col { padding-top: 9px; }
+#experience .header-col { 
+   padding-top: 2px; 
+   text-align: center
+ }
 #experience .main-col { padding-right: 10%; }
 
 .education, .work {
@@ -573,7 +582,10 @@ ul#nav li.current a { color: #F06000; }
    font: 18px/36px 'opensans-light', sans-serif;
    padding-right: 3%;
 }
-#contact .header-col { padding-top: 6px; }
+#contact .header-col { 
+   padding-top: 2px; 
+   text-align: center
+ }
 
 
 /* contact form */

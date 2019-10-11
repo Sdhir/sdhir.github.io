@@ -94,8 +94,8 @@
 
             <h2>About Me</h2>
 
-            <p>I am currently a Ph.D. student in the Image Processing Laboratory at Missouri University of Science and Technology, 
-               supervised by Dr. Joe R. Stanley. My research involves designing image processing techniques and computational models 
+            <p>I am currently a Ph.D. student in the Image Processing Laboratory at Missouri University of Science and Technology, Rolla. 
+               My research involves designing image processing techniques and computational models 
                that can facilitate cervical cancer diagnosis from histopathologic images of tissue biopsies. I have worked with various 
                biomedical image databases like cervical histology (microscopy images), cervical cytology (microscopy images), chest X-ray 
                scans, GI tract polyps from colonoscopy and wireless capsule endoscopy, foot prosthesis; and natural images datasets like 
@@ -339,7 +339,7 @@
 
    <section id="experience">
 
-      <div class="row work">
+      <div class="row education">
 
          <div class="three columns header-col">
             <h1><span>Industry Experience</span></h1>
@@ -637,12 +637,40 @@
 
             <div class="eight columns">
 
+               <script type="text/javascript">
+               function showDiv() {
+                  document.getElementById('ThankDiv').style.display = "block";
+               }
+               </script>
+
+               <script type="text/javascript">var submitted=false;</script>
+               <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" 
+               onload="if(submitted) {window.location='index.html';}"></iframe>
+
+               <form class="form" action="https://docs.google.com/forms/d/e/1FAIpQLSeZt2CLmTzzTZpQ0ZbPWtzhoyLU_OIH6IQ38-HhIKQtEuF7MA/formResponse" 
+                  method="post" target="hidden_iframe" onsubmit="submitted=true;">
+
+                  <label>Name</label>
+                  <input name="entry.2005620554" type="text" required />
+                  <label>Email</label>
+                  <input name="entry.1045781291" type="email" required />
+                  <label>Phone number</label>
+                  <input name="entry.1166974658" type="phone" />
+                  <label>Message</label>
+                  <textarea name="entry.839337160"></textarea>
+                  <input type="submit" value="Send" onclick="showDiv()" />
+                  <div id="ThankDiv"  style="display:none;" class="answer_list" > Thank you for providing your info!</div>
+
+               </form>
+
+               <!-- form "Static version"
                <form action="mailto:ssbw5@mst.edu" method="GET">
                      Subject <input name="subject" type="text"/>
                      Message
                      <textarea name="body"></textarea>
                      <input type="submit" value="Send" />
                </form>
+               -->
 
                <!-- form 
                <form action="mailto:ssbw5@mst.edu" method="GET" method="post" id="contactForm" name="contactForm">
