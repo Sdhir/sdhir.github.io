@@ -218,6 +218,15 @@ ul#nav li.current a { color: #F06000; }
    padding-top: 6px;
 }
 #about .main-col { padding-right: 5%; }
+
+#about .title_ {
+   font: 22px/30px 'opensans-bold', sans-serif;
+   color: #fff;
+   margin-bottom: 12px;
+   margin: auto;
+   padding-bottom: 0.7cm;
+}
+
 #about .download .button {
    margin-top: 6px;
    background: #2B2B2B;
@@ -323,8 +332,9 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #education .header-col { 
+   padding-bottom: 0.75cm;
    padding-top: 2px; 
-   text-align: center
+   text-align: center;
  }
 #education .main-col { padding-right: 10%; }
 
@@ -380,6 +390,7 @@ ul#nav li.current a { color: #F06000; }
 }
 
 #experience .header-col { 
+   padding-bottom: 0.75cm;
    padding-top: 2px; 
    text-align: center
  }
