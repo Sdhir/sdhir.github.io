@@ -599,7 +599,8 @@ ul#nav li.current a { color: #F06000; }
  }
 
  #contact h3.center_ { 
-   text-align: center
+   text-align: center;
+   padding-bottom: 1cm;
  }
 
 
