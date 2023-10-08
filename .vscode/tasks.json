@@ -1,8 +1,23 @@
 {
-    "version": "0.1.0",
+    "version": "2.0.0",
     "command": "start microsoft-edge:",    
     "windows": {
         "command": "start microsoft-edge:"
     },
-    "args": ["index.html"]
+    "args": [
+        "index.html"
+    ],
+    "tasks": [
+        {
+            "label": "start microsoft-edge:",
+            "args": [
+                "index.html"
+            ],
+            "problemMatcher": [],
+            "group": {
+                "_id": "build",
+                "isDefault": false
+            }
+        }
+    ]
 }
