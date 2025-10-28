@@ -240,6 +240,149 @@ ul#nav li.current a { color: #F06000; }
    font-size: 20px;
 }
 
+/* Professional About Section Enhancements */
+#about .intro-summary {
+   margin-bottom: 40px;
+   padding: 24px;
+   background: rgba(255, 255, 255, 0.05);
+   border-left: 4px solid #11ABB0;
+   border-radius: 4px;
+}
+
+#about .lead-text {
+   font-size: 16px;
+   line-height: 1.8;
+   margin: 0;
+}
+
+#about .credentials-section,
+#about .expertise-summary {
+   margin-bottom: 40px;
+}
+
+#about .subsection-title {
+   font: 18px/24px 'opensans-bold', sans-serif;
+   color: #11ABB0;
+   margin-bottom: 20px;
+   text-transform: uppercase;
+   letter-spacing: 1px;
+   border-bottom: 2px solid rgba(17, 171, 176, 0.3);
+   padding-bottom: 8px;
+}
+
+#about .intro-line {
+   margin-bottom: 24px;
+   font-size: 15px;
+}
+
+#about .achievements-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+   gap: 20px;
+   margin-top: 24px;
+}
+
+#about .achievement-item {
+   display: flex;
+   align-items: flex-start;
+   padding: 16px;
+   background: rgba(255, 255, 255, 0.03);
+   border-radius: 6px;
+   transition: all 0.3s ease;
+   border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#about .achievement-item:hover {
+   background: rgba(17, 171, 176, 0.1);
+   border-color: #11ABB0;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+#about .achievement-icon {
+   font-size: 24px;
+   margin-right: 12px;
+   flex-shrink: 0;
+}
+
+#about .achievement-content {
+   flex: 1;
+}
+
+#about .achievement-content strong {
+   display: block;
+   color: #fff;
+   font-size: 14px;
+   margin-bottom: 4px;
+}
+
+#about .achievement-content p {
+   font-size: 13px;
+   line-height: 1.6;
+   color: rgba(255, 255, 255, 0.8);
+   margin: 0;
+}
+
+#about .expertise-summary p {
+   font-size: 15px;
+   line-height: 1.8;
+}
+
+#about .competencies-section {
+   margin-top: 40px;
+}
+
+#about .competency-grid {
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+   gap: 20px;
+   margin-top: 20px;
+}
+
+#about .competency-category {
+   padding: 20px;
+   background: rgba(255, 255, 255, 0.05);
+   border-radius: 6px;
+   border-top: 3px solid #11ABB0;
+   transition: all 0.3s ease;
+}
+
+#about .competency-category:hover {
+   background: rgba(17, 171, 176, 0.1);
+   transform: translateY(-4px);
+   box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
+}
+
+#about .competency-category h4 {
+   font: 16px/22px 'opensans-bold', sans-serif;
+   color: #11ABB0;
+   margin-bottom: 10px;
+   text-transform: uppercase;
+   letter-spacing: 0.5px;
+}
+
+#about .competency-category p {
+   font-size: 13px;
+   line-height: 1.6;
+   color: rgba(255, 255, 255, 0.85);
+   margin: 0;
+}
+
+/* Responsive adjustments */
+@media only screen and (max-width: 768px) {
+   #about .achievements-grid {
+      grid-template-columns: 1fr;
+   }
+   
+   #about .competency-grid {
+      grid-template-columns: 1fr;
+   }
+   
+   #about .intro-summary {
+      padding: 16px;
+   }
+}
+
 
 /* ------------------------------------------------------------------ */
 /* d. Publications Section
@@ -297,6 +440,46 @@ ul#nav li.current a { color: #F06000; }
 #publications .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
+}
+
+/* Publication List Items with Link Thumbnails */
+#publications li {
+   margin-bottom: 24px;
+   list-style: none;
+   line-height: 1.6;
+}
+
+#publications .publication-links {
+   display: flex;
+   flex-wrap: wrap;
+   gap: 8px;
+   margin-top: 8px;
+}
+
+#publications .publication-links a {
+   display: inline-flex;
+   align-items: center;
+   padding: 6px 12px;
+   background: rgba(17, 171, 176, 0.1);
+   border: 1px solid #11ABB0;
+   border-radius: 4px;
+   color: #11ABB0;
+   text-decoration: none;
+   font-size: 13px;
+   transition: all 0.3s ease;
+}
+
+#publications .publication-links a:hover {
+   background: #11ABB0;
+   color: #fff;
+   transform: translateY(-2px);
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+#publications .publication-links a::before {
+   content: "🔗";
+   margin-right: 4px;
+   font-size: 12px;
 }
 
 /* ------------------------------------------------------------------ */
