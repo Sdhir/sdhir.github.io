@@ -175,5 +175,18 @@
       });
       return false;
    });
+
+/*----------------------------------------------------*/
+/* Publication Tabs
+------------------------------------------------------ */
+   $('.publication-tabs li').on('click', function() {
+      var tab_id = $(this).attr('data-tab');
+
+      $('.publication-tabs li').removeClass('active');
+      $('.publication-category').removeClass('active');
+
+      $(this).addClass('active');
+      $("#" + tab_id).addClass('active');
+   });
    
 });
