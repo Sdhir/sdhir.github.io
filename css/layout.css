@@ -388,7 +388,7 @@ ul#nav li.current a { color: #F06000; }
 /* d. Publications Section
 /* ------------------------------------------------------------------ */
 
-#publications {
+#talks, #publications {
    color: rgb(187, 189, 190);
    background: #2B2B2B;
    padding-top: 90px;
@@ -396,67 +396,67 @@ ul#nav li.current a { color: #F06000; }
    overflow: hidden;
 }
 
-#publications a, #publications a:visited  { color: #11ABB0; }
-#publications a:hover, #publications a:focus { color: #313131; }
+#talks a, #talks a:visited, #publications a, #publications a:visited { color: #11ABB0; }
+#talks a:hover, #talks a:focus, #publications a:hover, #publications a:focus { color: #313131; }
 
-#publications h1 {
+#talks h1, #publications h1 {
    color: #fff;
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
-#publications h1 span {
+#talks h1 span, #publications h1 span {
    border-bottom: 3px solid #F06000;
    padding-bottom: 0px;
    margin: auto;
    text-align: center;
 }
-#publications h3 {
+#talks h3, #publications h3 {
    color: #fff;
    font: 25px/30px 'opensans-bold', sans-serif;
 }
 
-#publications .header-col { 
+#talks .header-col, #publications .header-col { 
    padding-top: 2px; 
    text-align: center
 }
-#publications .main-col { padding-right: 10%; }
+#talks .main-col, #publications .main-col { padding-right: 10%; }
 
 .education, .work {
    margin-bottom: 48px;
    padding-bottom: 24px;
    border-bottom: 1px solid #E8E8E8;
 }
-#publications .info {
+#talks .info, #publications .info {
    font: 16px/24px 'librebaskerville-italic', serif;
    color: rgb(187, 189, 190);
    margin-bottom: 18px;
    margin-top: 9px;
 }
-#publications .info span {
+#talks .info span, #publications .info span {
    margin-right: 5px;
    margin-left: 5px;
 }
-#publications .date {
+#talks .date, #publications .date {
    font: 15px/24px 'opensans-regular', sans-serif;
    margin-top: 6px;
 }
 
 /* Publication List Items with Link Thumbnails */
-#publications li {
+#talks li, #publications li {
    margin-bottom: 24px;
    list-style: none;
    line-height: 1.6;
 }
 
-#publications .publication-links {
+#talks .publication-links, #publications .publication-links {
    display: flex;
    flex-wrap: wrap;
    gap: 8px;
    margin-top: 8px;
 }
 
-#publications .publication-links a {
+#talks .publication-links a, #publications .publication-links a {
    display: inline-flex;
    align-items: center;
    padding: 6px 12px;
@@ -469,14 +469,14 @@ ul#nav li.current a { color: #F06000; }
    transition: all 0.3s ease;
 }
 
-#publications .publication-links a:hover {
+#talks .publication-links a:hover, #publications .publication-links a:hover {
    background: #11ABB0;
    color: #fff;
    transform: translateY(-2px);
    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
 
-#publications .publication-links a::before {
+#talks .publication-links a::before, #publications .publication-links a::before {
    content: "🔗";
    margin-right: 4px;
    font-size: 12px;

@@ -9,47 +9,49 @@
 /* Publications Section Styles
 /* ------------------------------------------------------------------ */
 
-#publications {
+#talks, #publications {
    background: #2B2B2B;
    padding-top: 90px;
    padding-bottom: 72px;
    overflow: hidden;
 }
 
+#talks a,
 #publications a,
-#publications a:visited {
+#talks a:visited, #publications a:visited {
    color: #11ABB0;
 }
 
+#talks a:hover,
 #publications a:hover,
-#publications a:focus {
+#talks a:focus, #publications a:focus {
    color: #313131;
 }
 
-#publications h1 {
+#talks h1, #publications h1 {
    font: 18px/24px 'opensans-bold', sans-serif;
    text-transform: uppercase;
    letter-spacing: 1px;
 }
 
-#publications h1 span {
+#talks h1 span, #publications h1 span {
    border-bottom: 3px solid #11ABB0;
    padding-bottom: 6px;
 }
 
-#publications h2 {
+#talks h2, #publications h2 {
    font: 16px/24px 'opensans-bold', sans-serif;
 }
 
-#publications .header-col {
+#talks .header-col, #publications .header-col {
    padding-top: 9px;
 }
 
-#publications .main-col {
+#talks .main-col, #publications .main-col {
    padding-right: 5%;
 }
 
-#publications .lead {
+#talks .lead, #publications .lead {
    font: 16px/30px 'opensans-regular', sans-serif;
    color: #A8A8A8;
    margin-bottom: 48px;
@@ -221,7 +223,7 @@
 }
 
 @media only screen and (max-width: 767px) {
-   #publications .header-col {
+#talks .header-col, #publications .header-col {
       padding-top: 0;
       margin-bottom: 24px;
    }
